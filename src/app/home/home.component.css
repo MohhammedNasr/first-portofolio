@@ -1,0 +1,161 @@
+.bigtext{
+  position: absolute;
+width: 586px;
+height: 192px;
+left: 180px;
+top: 382px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 96px;
+/* or 100% */
+
+
+/* Color 3 */
+
+color: #EEEEEE;
+
+}
+
+.cvButton {
+  position: absolute;
+  width: 223px;
+  height: 47px;
+  left: 180px;
+  top: 785px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+.cvButton:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+.cvButtonText{
+width: 125px;
+height: 27px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #EEEEEE;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.social-buttons {
+  position: absolute;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  left: 415px;
+  top: 785px;
+}
+.social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 47px;
+  height: 47px;
+  text-decoration: none;
+  border-radius: 100%;
+  background: rgba(57, 62, 70, 0.75);
+  text-align: center;
+}
+.social-button::after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+.social-button:focus, .social-button:hover {
+  color: #fff;
+}
+.social-button:focus::after, .social-button:hover::after {
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  margin-left: calc(-50% - 1px);
+}
+.social-button i, .social-button svg {
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+.social-button i {
+  font-size: 25.6px;
+}
+.social-button svg {
+  height: 40%;
+  width: 40%;
+}
+.social-button--mail {
+  color: #c6004c;
+}
+.social-button--mail::after {
+  background: #c6003b;
+}
+.social-button--linkedin {
+  color: #0077b5;
+}
+.social-button--linkedin::after {
+  background: #0077b5;
+}
+.social-button--github {
+  color: #6e5494;
+}
+.social-button--github::after {
+  background: #6e5494;
+}
+
+.springarrow{
+  position: absolute;
+  width: 86.54px;
+  height: 461.34px;
+  left: 80px;
+  top: 415px;
+}
+
+.firstNavButton{
+  position: absolute;
+width: 96px;
+height: 96px;
+left: 800px;
+top: 800px;
+border: none;
+cursor: pointer;
+background: rgba(57, 62, 70, 0.75);
+backdrop-filter: blur(4px);
+transition: background-color 0.3s ease 0s;
+}
+
+.firstNavButton:hover{
+  background-color: rgba(42, 45, 49, 0.75);
+}
+
+.firstNavButtonIcon{
+  position: absolute;
+width: 21px;
+height: 36px;
+left: 38px;
+top: 30px;
+}
+.bigPicture{
+  position: absolute;
+width: 741px;
+height: 817px;
+left: 1100px;
+top: 100px;
+}

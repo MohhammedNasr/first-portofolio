@@ -1,0 +1,65 @@
+.aboutBigPicture{
+  position: absolute;
+width: 615px;
+height: 588px;
+left: 1100px;
+top: 247px;
+}
+.about1{
+  position: absolute;
+  width: 61.54px;
+  height: 46.57px;
+  left: 96px;
+  top: 135px;
+}
+.about2{
+  position: absolute;
+width: 57.33px;
+height: 88.16px;
+left: 467.23px;
+top: 247.14px;
+transform: rotate(14.82deg);
+}
+.about3{
+  position: absolute;
+width: 112.72px;
+height: 169.89px;
+left: 413.23px;
+top: 568.93px;
+}
+.aboutHead{
+  position: absolute;
+width: 322px;
+height: 96px;
+left: 96px;
+top: 256px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 96px;
+/* identical to box height */
+
+
+/* Color 3 */
+
+color: #EEEEEE;
+
+}
+.aboutText{
+  position: absolute;
+width: 389px;
+height: 216px;
+left: 96px;
+top: 390px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: rgba(238, 238, 238, 0.75);
+
+}
